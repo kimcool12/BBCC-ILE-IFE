@@ -195,9 +195,10 @@ const siteContent = {
 
   contact: {
     title: "Contact us",
-    email: "info@yourchurch.org",
-    phone: "+234 000 000 0000",
-    address: "Your church address here",
+    email: "believersbanquetileife@gmail.com",
+    phone: "+234 811 334 6664",
+    address:
+      " FirstWord Resource Centre, Behind Banwill Restaurant, Asherifa, Ile Ife.",
   },
 
   // platform must be: instagram | x | youtube | facebook | tiktok

@@ -256,10 +256,10 @@ h2 {
     transform: translateY(-8px);
     box-shadow: 0 12px 30px rgba($gold, 0.3);
   }
-  h3 {
-    padding: 1rem;
-    color: $gold-dark;
-  }
+  // h3 {
+  //   padding: 1rem;
+  //   color: $gold-dark;
+  // }
 }
 .slideshow {
   position: relative;
@@ -292,7 +292,7 @@ h2 {
     gap: 6px;
     span {
       width: 8px;
-      height: 8px;
+      height: 100%;
       border-radius: 50%;
       background: rgba(#fff, 0.5);
       transition: all 0.4s;

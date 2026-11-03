@@ -1,10 +1,10 @@
-import siteContent from './data/siteContent.js';
-import Navbar from './components/Navbar.jsx';
-import Hero from './components/Hero.jsx';
-import Footer from './components/Footer.jsx';
-import Reveal from './components/Reveal.jsx';
-import Img from './components/Img.jsx';
-import Slideshow from './components/Slideshow.jsx';
+import siteContent from "./data/siteContent.js";
+import Navbar from "./components/Navbar.jsx";
+import Hero from "./components/Hero.jsx";
+import Footer from "./components/Footer.jsx";
+import Reveal from "./components/Reveal.jsx";
+import Img from "./components/Img.jsx";
+import Slideshow from "./components/Slideshow.jsx";
 
 export default function App() {
   const c = siteContent; // short name for readability
@@ -15,16 +15,26 @@ export default function App() {
       <Hero {...c.hero} />
 
       {/* WHO ARE WE */}
-      <section className="section section--center">
-        <Reveal>
+      <section className="section vision">
+        <Reveal className="vision__text">
           <h2>{c.about.title}</h2>
-          {c.about.paragraphs.map((p) => <p key={p}>{p}</p>)}
+          {c.about.paragraphs.map((p) => (
+            <p key={p}>{p}</p>
+          ))}
+        </Reveal>
+
+        <div className="vision__line" />
+
+        <Reveal className="vision__logo" delay={200}>
+          <img src={c.about.logo} alt={`${c.churchName} logo`} />
         </Reveal>
       </section>
 
       {/* THE TOP 1% */}
       <section className="section section--dark section--center">
-        <Reveal><h2>{c.top1.title}</h2></Reveal>
+        <Reveal>
+          <h2>{c.top1.title}</h2>
+        </Reveal>
         <div className="grid grid--people">
           {c.top1.categories.map((cat, i) => (
             <Reveal key={cat.title} delay={i * 150}>
@@ -35,11 +45,20 @@ export default function App() {
             </Reveal>
           ))}
         </div>
-        <Reveal><a className="btn" href={c.top1.buttonLink} target="_blank" rel="noreferrer">{c.top1.buttonText}</a></Reveal>
+        <Reveal>
+          <a
+            className="btn"
+            href={c.top1.buttonLink}
+            target="_blank"
+            rel="noreferrer"
+          >
+            {c.top1.buttonText}
+          </a>
+        </Reveal>
       </section>
 
       {/* ANNOUNCEMENTS */}
-      <section id="announcements" className="section section--cream">
+      {/* <section id="announcements" className="section section--cream">
         <Reveal><h2>{c.announcements.title}</h2></Reveal>
         <div className="grid grid--cards">
           {c.announcements.items.map((a, i) => (
@@ -52,26 +71,45 @@ export default function App() {
             </Reveal>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* EVENTS */}
       <section id="events" className="section section--dark section--center">
-        <Reveal><h2>{c.events.title}</h2></Reveal>
+        <Reveal>
+          <h2>{c.events.title}</h2>
+        </Reveal>
         <div className="grid grid--cards">
           {c.events.cards.map((e, i) => (
             <Reveal key={e.title} delay={i * 120}>
-              <a className="card" href={e.link} target="_blank" rel="noreferrer">
+              <a
+                className="card"
+                href={e.link}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Img src={e.image} className="img-box--wide" />
-                <div className="card__body"><h3>{e.title}</h3><p>{e.subtitle}</p></div>
+                <div className="card__body">
+                  <h3>{e.title}</h3>
+                  <p>{e.subtitle}</p>
+                </div>
               </a>
             </Reveal>
           ))}
         </div>
-        <Reveal><a className="btn" href={c.events.viewAllLink} target="_blank" rel="noreferrer">{c.events.viewAllText}</a></Reveal>
+        <Reveal>
+          <a
+            className="btn"
+            href={c.events.viewAllLink}
+            target="_blank"
+            rel="noreferrer"
+          >
+            {c.events.viewAllText}
+          </a>
+        </Reveal>
       </section>
 
       {/* LEADERSHIP */}
-      <section id="leadership" className="section section--center">
+      {/* <section id="leadership" className="section section--center">
         <Reveal><h2>{c.leadership.title}</h2></Reveal>
         <div className="grid grid--cards">
           {c.leadership.people.map((p, i) => (
@@ -83,10 +121,10 @@ export default function App() {
             </Reveal>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* PASTOR'S CORNER */}
-      <section id="pastor" className="section section--dark">
+      {/* <section id="pastor" className="section section--dark">
         <Reveal><h2 className="center">{c.pastor.title}</h2></Reveal>
         <Reveal>
           <div className="pastor">
@@ -94,13 +132,19 @@ export default function App() {
             <div><h3>{c.pastor.name}</h3><p>{c.pastor.message}</p></div>
           </div>
         </Reveal>
-      </section>
+      </section> */}
 
       {/* CREED */}
       <section className="section section--center">
-        <Reveal><h2>{c.creed.title}</h2></Reveal>
+        <Reveal>
+          <h2>{c.creed.title}</h2>
+        </Reveal>
         <div className="creed">
-          {c.creed.lines.map((line, i) => <Reveal key={i} delay={(i % 6) * 60}><p>{line}</p></Reveal>)}
+          {c.creed.lines.map((line, i) => (
+            <Reveal key={i} delay={(i % 6) * 60}>
+              <p>{line}</p>
+            </Reveal>
+          ))}
         </div>
       </section>
 
@@ -108,7 +152,9 @@ export default function App() {
       <section id="contact" className="section section--dark section--center">
         <Reveal>
           <h2>{c.contact.title}</h2>
-          <p>{c.contact.email}</p><p>{c.contact.phone}</p><p>{c.contact.address}</p>
+          <p>{c.contact.email}</p>
+          <p>{c.contact.phone}</p>
+          <p>{c.contact.address}</p>
         </Reveal>
       </section>
 

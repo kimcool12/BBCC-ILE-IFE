@@ -12,11 +12,11 @@ const siteContent = {
   // Menu items. "id" must match the section id further down.
   nav: [
     { label: "Home", id: "home" },
-    { label: "Announcements", id: "announcements" },
     { label: "Events", id: "events" },
-    { label: "Our Leadership", id: "leadership" },
-    { label: "Pastor’s Corner", id: "pastor" },
     { label: "Contact us", id: "contact" },
+    // { label: "Announcements", id: "announcements" },
+    // { label: "Our Leadership", id: "leadership" },
+    // { label: "Pastor’s Corner", id: "pastor" },
   ],
 
   // Hero: slogan over a slideshow. Add or remove image paths freely (3 slides now).
@@ -33,6 +33,7 @@ const siteContent = {
 
   about: {
     title: "Our Vision ",
+    logo: "/images/logo.png",
     paragraphs: [
       "RAISING KINGDOM LEADERS TO TRANSFORM ALL NATIONS AND BUILDING KINGDOM INSTITUTIONS THAT TRANSFORM ALL NATIONS.",
     ],

@@ -27,6 +27,7 @@ const siteContent = {
       "/images/hero/slide1.jpg",
       "/images/hero/slide2.jpg",
       "/images/hero/slide3.jpg",
+      "/images/hero/slide4.jpg",
     ],
   },
 

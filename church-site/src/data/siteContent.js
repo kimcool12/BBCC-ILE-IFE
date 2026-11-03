@@ -155,7 +155,7 @@ const siteContent = {
 
   pastor: {
     title: "Pastor’s Corner",
-    name: "Pastor Name",
+    name: "Min.Faith Akinyode",
     image: "/images/pastor/pastor.jpg",
     message: "Write the pastor’s message here.",
   },
@@ -201,9 +201,12 @@ const siteContent = {
 
   // platform must be: instagram | x | youtube | facebook | tiktok
   socials: [
-    { platform: "instagram", url: "#" },
-    { platform: "x", url: "#" },
-    { platform: "youtube", url: "" },
+    { platform: "instagram", url: "https://www.instagram.com/bbccileife/" },
+    {
+      platform: "tiktok",
+      url: "https://www.tiktok.com/@bbccileife?is_from_webapp=1&sender_device=pc",
+    },
+    // { platform: "youtube", url: "" },
   ],
 };
 

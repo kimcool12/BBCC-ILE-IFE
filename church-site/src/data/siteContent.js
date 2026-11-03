@@ -44,27 +44,39 @@ const siteContent = {
     // Add a category = copy one { ... } block. Add a slide = add one path to "images".
     categories: [
       {
-        title: "Category One",
+        // title: "Category One",
         images: [
           "/images/people/category1-1.jpg",
           "/images/people/category1-2.jpg",
           "/images/people/category1-3.jpg",
+          "/images/people/category1-4.jpg",
+          "/images/people/category1-5.jpg",
+          "/images/people/category1-6.jpg",
+          "/images/people/category1-7.jpg",
         ],
       },
       {
-        title: "Category Two",
+        // title: "Category Two",
         images: [
           "/images/people/category2-1.jpg",
           "/images/people/category2-2.jpg",
           "/images/people/category2-3.jpg",
+          "/images/people/category2-4.jpg",
+          "/images/people/category2-5.jpg",
+          "/images/people/category2-6.jpg",
+          "/images/people/category2-7.jpg",
         ],
       },
       {
-        title: "Category Three",
+        // title: "Category Three",
         images: [
           "/images/people/category3-1.jpg",
           "/images/people/category3-2.jpg",
           "/images/people/category3-3.jpg",
+          "/images/people/category3-4.jpg",
+          "/images/people/category3-5.jpg",
+          "/images/people/category3-6.jpg",
+          "/images/people/category3-7.jpg",
         ],
       },
     ],
@@ -124,18 +136,18 @@ const siteContent = {
     title: "Our Leadership",
     people: [
       {
-        name: "Pastor Name",
-        role: "Senior Pastor",
+        name: "Min.Faith Akinyode",
+        role: "Residence Pastor",
         image: "/images/leadership/leader1.jpg",
       },
       {
-        name: "Leader Name",
-        role: "Assistant Pastor",
-        image: "/images/leadership/leader2.jpg",
+        name: "Min.Temitope Adebayo",
+        role: "Assistant Residence Pastor",
+        image: "/images/leadership/leader2.png",
       },
       {
-        name: "Leader Name",
-        role: "Youth Leader",
+        name: "Mrs.Oyindamola",
+        role: "General Secretary ",
         image: "/images/leadership/leader3.jpg",
       },
     ],

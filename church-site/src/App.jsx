@@ -74,7 +74,7 @@ export default function App() {
       </section> */}
 
       {/* EVENTS */}
-      <section id="events" className="section section--dark section--center">
+      {/* <section id="events" className="section section--dark section--center">
         <Reveal>
           <h2>{c.events.title}</h2>
         </Reveal>
@@ -106,7 +106,7 @@ export default function App() {
             {c.events.viewAllText}
           </a>
         </Reveal>
-      </section>
+      </section> */}
 
       {/* LEADERSHIP */}
       {/* <section id="leadership" className="section section--center">

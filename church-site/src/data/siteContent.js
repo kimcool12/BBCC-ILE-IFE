@@ -90,7 +90,7 @@ const siteContent = {
           "/images/people/joy/2.png",
           "/images/people/joy/3.jpg",
           "/images/people/joy/4.png",
-          "/images/people/joy/5.jpg",
+          // "/images/people/joy/5.jpg",
           // "/images/people/joy/6.jpg",
           "/images/people/joy/7.png",
           "/images/people/joy/8.jpg",

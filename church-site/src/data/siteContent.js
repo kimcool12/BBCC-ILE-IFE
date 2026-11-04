@@ -47,25 +47,26 @@ const siteContent = {
       {
         // title: "Category One",
         images: [
-          // "/images/people/dovotion/1.jpg",
+          "/images/people/dovotion/1.jpg",
           // "/images/people/dovotion/2.jpg",
           "/images/people/dovotion/3.jpg",
-          "/images/people/dovotion/4.jpg",
+          // "/images/people/dovotion/4.jpg",
           "/images/people/dovotion/5.jpg",
           "/images/people/dovotion/6.jpg",
           "/images/people/dovotion/7.jpg",
           "/images/people/dovotion/8.jpg",
           "/images/people/dovotion/9.jpg",
-          "/images/people/dovotion/10.jpg",
+          // "/images/people/dovotion/10.jpg",
           "/images/people/dovotion/11.png",
-          "/images/people/dovotion/12.png",
+          // "/images/people/dovotion/12.png",
+          "/images/people/dovotion/13.jpg",
         ],
       },
       {
         // title: "Category Two",
         images: [
           "/images/people/community/1.jpg",
-          // "/images/people/community/2.jpg",
+          "/images/people/community/2.jpg",
           // "/images/people/community/3.jpg",
           // "/images/people/community/4.jpg",
           "/images/people/community/5.jpg",
@@ -85,7 +86,7 @@ const siteContent = {
       {
         // title: "Category Three",
         images: [
-          // "/images/people/joy/1.jpg",
+          "/images/people/joy/1.jpg",
           "/images/people/joy/2.png",
           "/images/people/joy/3.jpg",
           "/images/people/joy/4.png",
